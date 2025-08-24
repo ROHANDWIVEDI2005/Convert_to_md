@@ -15,7 +15,7 @@ def convert_to_markdown(text_content,api_key):
     """
     # Configure the API key from the environment variable.
   
-    client = genai.client(api_key = api_key)
+    client = genai.Client(api_key = api_key)
 
     
     # Instantiate the model.

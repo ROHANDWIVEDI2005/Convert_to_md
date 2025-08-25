@@ -4,7 +4,7 @@ from google import genai
 
 def convert_to_markdown(text_content,api_key):
     """
-    Converts a given text string to Markdown format using the Gemini API via the SDK.
+    Converts a given text string to Markdown format using the Gemini API.
     
     Args:
         text_content (str): The plain text to convert.

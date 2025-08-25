@@ -25,7 +25,7 @@ def convert_to_markdown(text_content,api_key):
     prompt = f"""
     Convert the following text into well-structured Markdown format suitable for GitHub documentation.
     Use appropriate headings (#, ##, ###), lists, code blocks, and bold/italic formatting.
-    Ensure the output is clean and directly usable in a .md file.
+    Ensure the output is clean and directly usable in a .md code don't include (```Markdown ````).
 
     Text to convert:
     {text_content}

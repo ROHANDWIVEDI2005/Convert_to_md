@@ -32,7 +32,16 @@ To securely use the **Gemini API**, you must store your API key as a GitHub Secr
 3.  Set the **Name** to `GEMINI_API_KEY`.
 4.  Paste your personal **Gemini API** key into the **Secret** field.
 
-### Step 3: Use the Tool
+### Step 3: Ensure Read and Write Permissions
+
+For the GitHub Action to be able to create and push a new file to your repository, you must grant it permission.
+
+1.  Go to your repository's **Settings > Actions > General**.
+2.  Scroll down to the **Workflow permissions** section.
+3.  Select **Read and write permissions**.
+4.  Click **Save**.
+
+### Step 4: Use the Tool
 
 1.  Create a file named `source.txt` in the root of your repository.
 2.  Add your plain text content to `source.txt`.

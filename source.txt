@@ -44,5 +44,5 @@ Commit and push your changes.
 
 The workflow will run automatically, and you will see a new README.md file created with the formatted Markdown content.
 
-Note
+
 This readme is also created using this workflow.

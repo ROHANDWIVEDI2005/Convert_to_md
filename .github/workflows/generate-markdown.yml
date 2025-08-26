@@ -8,6 +8,11 @@ on:
     paths:
       # The workflow will run only when changes are pushed to this specific file.
       - 'source.txt'
+  pull_request:
+    paths:
+      - 'source.txt'
+    
+      
 
 # Add permissions for the workflow to create a commit.
 permissions:

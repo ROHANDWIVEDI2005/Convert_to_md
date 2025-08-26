@@ -49,6 +49,6 @@ For the GitHub Action to be able to create and push a new file to your repositor
 
 The workflow will run automatically, and you will see a new `README.md` file created with the formatted Markdown content.
 
-### Note
+
 
 This readme is also created using this workflow.

@@ -27,7 +27,7 @@ Place the following two files in your repository:
 
 To securely use the Gemini API, you must store your API key as a GitHub Secret.
 
-1.  Go to your repository's **Settings > Secrets and variables > Actions**.
+1.  Go to your repository's **Settings** > **Secrets and variables** > **Actions**.
 2.  Click **New repository secret**.
 3.  Set the Name to `GEMINI_API_KEY`.
 4.  Paste your personal Gemini API key into the Secret field.
@@ -40,8 +40,8 @@ To securely use the Gemini API, you must store your API key as a GitHub Secret.
 
 The workflow will run automatically, and you will see a new `README.md` file created with the formatted Markdown content.
 
+---
+
 This readme is also created using this workflow.
 
-## Next Steps
-
-*   You can create your own workflows using AI models which can make your workflow easier.
+Now, using this example as a foundation, you can create your own examples.

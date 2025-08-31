@@ -1,16 +1,16 @@
 # AI Text to Markdown Converter GitHub Action
 
-This is a **GitHub Action** that automatically converts plain text into a well-structured Markdown document using the **Gemini API**. It's designed to streamline the process of creating and maintaining documentation, like `README.md` files, directly within your repository.
+This is a GitHub Action that automatically converts plain text into a well-structured Markdown document using the Gemini API. It's designed to streamline the process of creating and maintaining documentation, like `README.md` files, directly within your repository.
 
 ## How It Works
 
 The workflow is simple and automated. You write your content in a plain text file, push your changes, and the GitHub Action handles the rest.
 
-1.  **Write Content:** You write or paste your text into a designated source file (e.g., `source.txt`).
-2.  **Commit & Push:** You commit and push the changes to your repository.
-3.  **Workflow Trigger:** The GitHub Action automatically detects the change to the `source.txt` file and starts the conversion process.
-4.  **AI Conversion:** A Python script uses the Gemini API to intelligently convert your text into Markdown, adding headings, lists, bold text, and other formatting as needed.
-5.  **Auto-Commit:** The action then automatically commits the new or updated Markdown content to a destination file (e.g., `README.md`).
+1.  **Write Content**: You write or paste your text into a designated source file (e.g., `source.txt`).
+2.  **Commit & Push**: You commit and push the changes to your repository.
+3.  **Workflow Trigger**: The GitHub Action automatically detects the change to the `source.txt` file and starts the conversion process.
+4.  **AI Conversion**: A Python script uses the Gemini API to intelligently convert your text into Markdown, adding headings, lists, bold text, and other formatting as needed.
+5.  **Auto-Commit**: The action then automatically commits the new or updated Markdown content to a destination file (e.g., `README.md`).
 
 ## Getting Started
 
@@ -40,6 +40,8 @@ To securely use the Gemini API, you must store your API key as a GitHub Secret.
 
 The workflow will run automatically, and you will see a new `README.md` file created with the formatted Markdown content.
 
----
+This readme is also created using this workflow.
 
-*This readme is also created using this workflow.*
+## Next Steps
+
+*   You can create your own workflows using AI models which can make your workflow easier.

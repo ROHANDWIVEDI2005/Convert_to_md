@@ -47,6 +47,4 @@ The workflow will run automatically, and you will see a new README.md file creat
 
 This readme is also created using this workflow.
 
-next steps:
-
-You can create your own workflows using ai models which can make your workflow easier.
+Now using this example as a foundation you can create your own examples.

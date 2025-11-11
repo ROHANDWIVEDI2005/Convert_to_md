@@ -19,7 +19,7 @@ def convert_to_markdown(text_content,api_key):
 
     
     # Instantiate the model.
-    MODEL_ID = "gemini-2.5-flash"
+    MODEL_ID = "gemini-2.5-flash-lite"
     
     # Create the prompt for the Gemini model.
     prompt = f"""

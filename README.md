@@ -1,6 +1,6 @@
 # AI Text to Markdown Converter GitHub Action
 
-This is a GitHub Action that automatically converts plain text into a well-structured Markdown document using the Gemini API. It's designed to streamline the process of creating and maintaining documentation, like `README.md` files, directly within your repository.
+This is a GitHub Action that automatically converts plain text into a well-structured Markdown document using the Gemini API. It's designed to streamline the process of creating and maintaining documentation, like README.md files, directly within your repository.
 
 ## How It Works
 
@@ -27,10 +27,10 @@ Place the following two files in your repository:
 
 To securely use the Gemini API, you must store your API key as a GitHub Secret.
 
-1.  Go to your repository's **Settings** > **Secrets and variables** > **Actions**.
+1.  Go to your repository's **Settings > Secrets and variables > Actions**.
 2.  Click **New repository secret**.
-3.  Set the Name to `GEMINI_API_KEY`.
-4.  Paste your personal Gemini API key into the Secret field.
+3.  Set the **Name** to `GEMINI_API_KEY`.
+4.  Paste your personal Gemini API key into the **Secret** field.
 
 ### Step 3: Use the Tool
 
@@ -40,8 +40,4 @@ To securely use the Gemini API, you must store your API key as a GitHub Secret.
 
 The workflow will run automatically, and you will see a new `README.md` file created with the formatted Markdown content.
 
----
-
-This readme is also created using this workflow.
-
-Now, using this example as a foundation, you can create your own examples.
+_Note: This readme is also created using this workflow._

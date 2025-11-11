@@ -46,5 +46,3 @@ The workflow will run automatically, and you will see a new README.md file creat
 
 
 This readme is also created using this workflow.
-
-Now using this example as a foundation you can create your own examples.

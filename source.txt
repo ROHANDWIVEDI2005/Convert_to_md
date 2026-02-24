@@ -41,8 +41,3 @@ Create a file named source.txt in the root of your repository.
 Add your plain text content to source.txt.
 
 Commit and push your changes.
-
-The workflow will run automatically, and you will see a new README.md file created with the formatted Markdown content.
-
-
-Note: "This readme is also created using this workflow."
